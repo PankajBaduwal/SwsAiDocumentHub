@@ -1,1 +1,37 @@
 /* App styles */
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1a56db;
+    --primary-dark: #1343b0;
+    --primary-light: #e8f0fe;
+    --success: #0e9f6e;
+    --error: #f05252;
+    --warning: #ff8800;
+    --bg: #f8faff;
+    --white: #ffffff;
+    --border: #e2e8f0;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --shadow: 0 2px 8px rgba(26, 86, 219, 0.08);
+    --shadow-md: 0 4px 16px rgba(26, 86, 219, 0.12);
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+.main-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
