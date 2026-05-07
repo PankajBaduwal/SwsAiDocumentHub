@@ -1,0 +1,75 @@
+.doc-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--white);
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.doc-table th {
+    background: var(--primary-light);
+    padding: 12px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--primary);
+}
+
+.doc-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.9rem;
+}
+
+.doc-table tr:last-child td {
+    border-bottom: none;
+}
+
+.doc-table tr:hover td {
+    background: var(--bg);
+}
+
+.doc-name {
+    font-weight: 500;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    font-family: 'Livvic', sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.action-btn.download {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+.action-btn.delete {
+    background: #fef2f2;
+    color: var(--error);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 64px;
+    color: var(--text-muted);
+}
+
+.empty-state a {
+    color: var(--primary);
+}
+
+.loader {
+    text-align: center;
+    padding: 48px;
+    color: var(--text-muted);
+}
